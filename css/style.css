@@ -1,0 +1,79 @@
+/*Formatacao geral*/
+*{
+	/*color: #FFFFFF;
+	background-color: #00e6e6*/;
+	overflow: visible;
+	font-family: arial;
+	padding: 0;
+	margin: 0;
+	background-color: #f2f2f2;
+}
+
+/*O nome do site*/
+.titulo{
+    text-align: center;
+    background-color: #ff884d;
+    color: white;
+    font-size: 50px;
+    font-family: Arial Narrow, sans-serif;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: fixed;
+}
+
+/*Boas vindas*/
+.subtitulo{
+    padding: 200px;   
+    background-color: #ff884d;
+    font-size: 100px;
+    font-family: Arial Narrow, sans-serif;
+    text-align: center;
+    
+}
+
+/*ambiente do Conteúdo de apresentacao*/
+.ambiente{
+    margin: 100px;
+    border-bottom: 100px;
+    background: white;
+    border: solid orange;
+    border-radius: 15px;
+    
+}
+
+/*Apresentacao*/
+.conteudo{
+   display: inline-block;
+    background-color:  #ffeee6;
+    text-align: center;
+    text-indent: 50px ;
+    text-decoration: justify;
+    padding-bottom: 50px;
+    
+}
+
+div>p{
+    background-color: #ffeee6;
+}
+
+div>h2{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    background: orange;
+    margin-bottom: 20px;
+}
+
+.tentacao{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    
+    
+}
+
+.rodape{
+    background-color: #000000;
+}
